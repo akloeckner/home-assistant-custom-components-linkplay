@@ -646,9 +646,9 @@ class LinkPlayDevice(MediaPlayerEntity):
                 self._is_master = False
                 self._master = None
 
-            if not self._is_master:
-                self._master = None
-                self._multiroom_group = []
+#            if not self._is_master:
+#                self._master = None
+#                self._multiroom_group = []
 
             #_LOGGER.debug("04 Update VOL, Shuffle, Repeat, STATE %s, %s", self.entity_id, self._name)
             self._volume = self._player_statdata['vol']
