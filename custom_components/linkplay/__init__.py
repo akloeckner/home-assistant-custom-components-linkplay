@@ -10,7 +10,7 @@ import voluptuous as vol
 from homeassistant.const import ATTR_ENTITY_ID
 from homeassistant.helpers import config_validation as cv
 
-DOMAIN = 'linkplay'
+DOMAIN = 'linkplay_old'
 
 SERVICE_JOIN = 'join'
 SERVICE_UNJOIN = 'unjoin'
